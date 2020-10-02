@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera!</title>
+	<title>Titulo</title>
 </head>
-
 <body>
-	<h1>Great Curse</h1>
+
+<h2>My Heading </h2>
+
+<p>Play around with the code and click on the "Run" button to view the result.</p>
+
+<p id="demo"></p>
+
+<script>
+'use strict';
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of la letra is: " + z;
+try{
+var u=2;
+u+=1;
+document.getElementById("demo").innerHTML =
+"The value demo  is: " + u;
+}
+catch(error){
+console.error(error);
+document.getElementById("demo").innerHTML =
+"The value demo  is: " + error;
+}
+
+</script>
+
 </body>
 </html>
-
-
-
-
