@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	color:  white;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;	
+}
+
+
+header{
+
+}
+
+header h1{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.container{
+	border:1px solid white;
+	padding: 5px;
+}
+
+.semaforo{
+	/* border:1px solid blue; */
+	background-color: black;
+}
+
+.semaforo div{
+	font-size: 1.1em;
+	height: 150px;
+	width: 150px;
+	border: 2px solid white;		
+}
+
+#red.on{
+	background-color: red;
+}
+
+#yellow.on{
+	background-color: yellow;
+}
+
+#green.on{
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
